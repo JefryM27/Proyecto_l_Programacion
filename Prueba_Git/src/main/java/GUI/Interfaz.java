@@ -35,13 +35,17 @@ public class Interfaz extends javax.swing.JFrame {
         jPanel11 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblAFC = new javax.swing.JTable();
-        btnPartido = new javax.swing.JButton();
-        btnTodosPartidos = new javax.swing.JButton();
-        jPanel12 = new javax.swing.JPanel();
+        btnPartidoAFC = new javax.swing.JButton();
+        btnTodosPartidosAFC = new javax.swing.JButton();
         jPanel13 = new javax.swing.JPanel();
         jPanel15 = new javax.swing.JPanel();
         jPanel16 = new javax.swing.JPanel();
         jPanel17 = new javax.swing.JPanel();
+        jPanel12 = new javax.swing.JPanel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        tblCAF = new javax.swing.JTable();
+        btnTodosPartidosCAF = new javax.swing.JButton();
+        btnPartidoCAF = new javax.swing.JButton();
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -129,11 +133,13 @@ public class Interfaz extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tblAFC);
 
-        btnPartido.setBackground(new java.awt.Color(255, 51, 153));
-        btnPartido.setText("Partido por Partido");
+        btnPartidoAFC.setBackground(new java.awt.Color(255, 51, 153));
+        btnPartidoAFC.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnPartidoAFC.setText("Partido por Partido");
 
-        btnTodosPartidos.setBackground(new java.awt.Color(255, 51, 51));
-        btnTodosPartidos.setText("Todos los partidos");
+        btnTodosPartidosAFC.setBackground(new java.awt.Color(255, 51, 51));
+        btnTodosPartidosAFC.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnTodosPartidosAFC.setText("Todos los partidos");
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
@@ -144,9 +150,9 @@ public class Interfaz extends javax.swing.JFrame {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(btnPartido, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btnTodosPartidos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(165, Short.MAX_VALUE))
+                    .addComponent(btnPartidoAFC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnTodosPartidosAFC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(105, Short.MAX_VALUE))
         );
         jPanel11Layout.setVerticalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -157,36 +163,23 @@ public class Interfaz extends javax.swing.JFrame {
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel11Layout.createSequentialGroup()
                         .addGap(164, 164, 164)
-                        .addComponent(btnPartido, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnPartidoAFC, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(34, 34, 34)
-                        .addComponent(btnTodosPartidos, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(36, Short.MAX_VALUE))
+                        .addComponent(btnTodosPartidosAFC, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(718, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("AFC", jPanel11);
-
-        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
-        jPanel12.setLayout(jPanel12Layout);
-        jPanel12Layout.setHorizontalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 564, Short.MAX_VALUE)
-        );
-        jPanel12Layout.setVerticalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 484, Short.MAX_VALUE)
-        );
-
-        jTabbedPane2.addTab("CAF", jPanel12);
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
         jPanel13Layout.setHorizontalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 564, Short.MAX_VALUE)
+            .addGap(0, 507, Short.MAX_VALUE)
         );
         jPanel13Layout.setVerticalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 484, Short.MAX_VALUE)
+            .addGap(0, 1166, Short.MAX_VALUE)
         );
 
         jTabbedPane2.addTab("CONCACAF", jPanel13);
@@ -195,11 +188,11 @@ public class Interfaz extends javax.swing.JFrame {
         jPanel15.setLayout(jPanel15Layout);
         jPanel15Layout.setHorizontalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 564, Short.MAX_VALUE)
+            .addGap(0, 507, Short.MAX_VALUE)
         );
         jPanel15Layout.setVerticalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 484, Short.MAX_VALUE)
+            .addGap(0, 1166, Short.MAX_VALUE)
         );
 
         jTabbedPane2.addTab("COMMEBOL", jPanel15);
@@ -208,11 +201,11 @@ public class Interfaz extends javax.swing.JFrame {
         jPanel16.setLayout(jPanel16Layout);
         jPanel16Layout.setHorizontalGroup(
             jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 564, Short.MAX_VALUE)
+            .addGap(0, 507, Short.MAX_VALUE)
         );
         jPanel16Layout.setVerticalGroup(
             jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 484, Short.MAX_VALUE)
+            .addGap(0, 1166, Short.MAX_VALUE)
         );
 
         jTabbedPane2.addTab("OFC", jPanel16);
@@ -221,14 +214,125 @@ public class Interfaz extends javax.swing.JFrame {
         jPanel17.setLayout(jPanel17Layout);
         jPanel17Layout.setHorizontalGroup(
             jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 564, Short.MAX_VALUE)
+            .addGap(0, 507, Short.MAX_VALUE)
         );
         jPanel17Layout.setVerticalGroup(
             jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 484, Short.MAX_VALUE)
+            .addGap(0, 1166, Short.MAX_VALUE)
         );
 
         jTabbedPane2.addTab("UEFA", jPanel17);
+
+        tblCAF.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Angola"},
+                {"Argelia"},
+                {"Benín"},
+                {"Botsuana"},
+                {"Burkina Faso"},
+                {"Burundi"},
+                {"Cabo Verde"},
+                {"Camerún"},
+                {"Chad"},
+                {"Comoras"},
+                {"Congo"},
+                {"Costa de Marfil"},
+                {"Egipto"},
+                {"Eritrea"},
+                {"Esuatini"},
+                {"Etiopía"},
+                {"Gabón"},
+                {"Gambia"},
+                {"Ghana"},
+                {"Guinea"},
+                {"Guinea Ecuatorial"},
+                {"Guinea-Bissáu"},
+                {"Kenia"},
+                {"Lesoto"},
+                {"Liberia"},
+                {"Libia"},
+                {"Madagascar"},
+                {"Malaui"},
+                {"Mali"},
+                {"Marruecos"},
+                {"Mauricio"},
+                {"Mauritania"},
+                {"Mozambique"},
+                {"Namibia"},
+                {"Níger"},
+                {"Nigeria"},
+                {"RD del Congo"},
+                {"República Centroafricana"},
+                {"Ruanda"},
+                {"Santo Tomé y Príncipe"},
+                {"Senegal"},
+                {"Seychelles"},
+                {"Sierra Leona"},
+                {"Somalia"},
+                {"Sudáfrica"},
+                {"Sudán"},
+                {"Sudán del Sur"},
+                {"Tanzania"},
+                {"Togo"},
+                {"Túnez"},
+                {"Uganda"},
+                {"Yibuti"},
+                {"Zambia"},
+                {null}
+            },
+            new String [] {
+                "Selecciones CAF"
+            }
+        ));
+        jScrollPane2.setViewportView(tblCAF);
+
+        btnTodosPartidosCAF.setBackground(new java.awt.Color(204, 204, 204));
+        btnTodosPartidosCAF.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnTodosPartidosCAF.setText("Todos los Partidos");
+        btnTodosPartidosCAF.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTodosPartidosCAFActionPerformed(evt);
+            }
+        });
+
+        btnPartidoCAF.setBackground(new java.awt.Color(204, 204, 204));
+        btnPartidoCAF.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnPartidoCAF.setText("Partido por Partido");
+        btnPartidoCAF.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPartidoCAFActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 293, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(37, 37, 37)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnTodosPartidosCAF)
+                    .addComponent(btnPartidoCAF))
+                .addContainerGap(36, Short.MAX_VALUE))
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addGap(117, 117, 117)
+                        .addComponent(btnPartidoCAF)
+                        .addGap(45, 45, 45)
+                        .addComponent(btnTodosPartidosCAF))
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 1110, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(50, Short.MAX_VALUE))
+        );
+
+        jTabbedPane2.addTab("CAF", jPanel12);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -244,11 +348,21 @@ public class Interfaz extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void btnTodosPartidosCAFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTodosPartidosCAFActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnTodosPartidosCAFActionPerformed
+
+    private void btnPartidoCAFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPartidoCAFActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnPartidoCAFActionPerformed
+
    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnPartido;
-    private javax.swing.JButton btnTodosPartidos;
+    private javax.swing.JButton btnPartidoAFC;
+    private javax.swing.JButton btnPartidoCAF;
+    private javax.swing.JButton btnTodosPartidosAFC;
+    private javax.swing.JButton btnTodosPartidosCAF;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
@@ -261,7 +375,9 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTable tblAFC;
+    private javax.swing.JTable tblCAF;
     // End of variables declaration//GEN-END:variables
 }
