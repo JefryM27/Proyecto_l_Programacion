@@ -43,6 +43,10 @@ public class Interfaz extends javax.swing.JFrame {
         btnPartidoCONCACAF = new javax.swing.JButton();
         btnTodosPartidosCONCACAF = new javax.swing.JButton();
         jPanel15 = new javax.swing.JPanel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTable2 = new javax.swing.JTable();
+        btnPartidoCONMEBOL = new javax.swing.JButton();
+        btnTodosPartidosCONMEBOL = new javax.swing.JButton();
         jPanel16 = new javax.swing.JPanel();
         jPanel17 = new javax.swing.JPanel();
         jPanel12 = new javax.swing.JPanel();
@@ -268,18 +272,62 @@ public class Interfaz extends javax.swing.JFrame {
 
         jTabbedPane2.addTab("CONCACAF", jPanel13);
 
+        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Argentina"},
+                {"Bolivia"},
+                {"Brasil"},
+                {"Chile"},
+                {"Colombia"},
+                {"Ecuador"},
+                {"Paraguay"},
+                {"Perú"},
+                {"Uruguay"},
+                {null}
+            },
+            new String [] {
+                "Selecciones CONMEBOL"
+            }
+        ));
+        jScrollPane4.setViewportView(jTable2);
+
+        btnPartidoCONMEBOL.setBackground(new java.awt.Color(204, 204, 204));
+        btnPartidoCONMEBOL.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnPartidoCONMEBOL.setText("Partidos por Partido");
+
+        btnTodosPartidosCONMEBOL.setBackground(new java.awt.Color(204, 204, 204));
+        btnTodosPartidosCONMEBOL.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnTodosPartidosCONMEBOL.setText("Todos los partidos");
+
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
         jPanel15.setLayout(jPanel15Layout);
         jPanel15Layout.setHorizontalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 507, Short.MAX_VALUE)
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnPartidoCONMEBOL)
+                    .addComponent(btnTodosPartidosCONMEBOL))
+                .addGap(77, 77, 77))
         );
         jPanel15Layout.setVerticalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1166, Short.MAX_VALUE)
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel15Layout.createSequentialGroup()
+                        .addGap(90, 90, 90)
+                        .addComponent(btnPartidoCONMEBOL)
+                        .addGap(61, 61, 61)
+                        .addComponent(btnTodosPartidosCONMEBOL))
+                    .addGroup(jPanel15Layout.createSequentialGroup()
+                        .addGap(40, 40, 40)
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(776, Short.MAX_VALUE))
         );
 
-        jTabbedPane2.addTab("COMMEBOL", jPanel15);
+        jTabbedPane2.addTab("CONMEBOL", jPanel15);
 
         javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
         jPanel16.setLayout(jPanel16Layout);
@@ -450,9 +498,11 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JButton btnPartidoAFC;
     private javax.swing.JButton btnPartidoCAF;
     private javax.swing.JButton btnPartidoCONCACAF;
+    private javax.swing.JButton btnPartidoCONMEBOL;
     private javax.swing.JButton btnTodosPartidosAFC;
     private javax.swing.JButton btnTodosPartidosCAF;
     private javax.swing.JButton btnTodosPartidosCONCACAF;
+    private javax.swing.JButton btnTodosPartidosCONMEBOL;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
@@ -467,8 +517,10 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTable jTable1;
+    private javax.swing.JTable jTable2;
     private javax.swing.JTable tblAFC;
     private javax.swing.JTable tblCAF;
     // End of variables declaration//GEN-END:variables
