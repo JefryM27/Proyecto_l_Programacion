@@ -129,12 +129,12 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                       <Component id="jScrollPane1" min="-2" pref="228" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="btnPartidoAFC" max="32767" attributes="0"/>
-                          <Component id="btnTodosPartidosAFC" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnPartidoAFC" min="-2" pref="159" max="-2" attributes="0"/>
+                          <Component id="btnTodosPartidosAFC" min="-2" pref="159" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="105" max="32767" attributes="0"/>
+                      <EmptySpace pref="65" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -142,18 +142,18 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="164" max="-2" attributes="0"/>
-                              <Component id="btnPartidoAFC" min="-2" pref="38" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="btnPartidoAFC" min="-2" pref="35" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                               <Component id="btnTodosPartidosAFC" min="-2" pref="37" max="-2" attributes="0"/>
                           </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace pref="718" max="32767" attributes="0"/>
+                      <EmptySpace pref="723" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -169,28 +169,54 @@
                 <Component class="javax.swing.JTable" name="tblAFC">
                   <Properties>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                      <Table columnCount="1" rowCount="20">
+                      <Table columnCount="1" rowCount="46">
                         <Column editable="true" title="Selecciones AFC" type="java.lang.Object">
-                          <Data value=" Australia"/>
-                          <Data value="Birmania"/>
-                          <Data value="Brun&#xe9;i"/>
+                          <Data value="Afganist&#xe1;n"/>
+                          <Data value="Arabia Saud&#xed;"/>
+                          <Data value="Australia"/>
+                          <Data value="Bahr&#xe9;in"/>
+                          <Data value="Bangladesh"/>
+                          <Data value="Brun&#xe9;i Darussalam"/>
+                          <Data value="But&#xe1;n "/>
                           <Data value="Camboya"/>
+                          <Data value="Chinese Taipei"/>
+                          <Data value="Emiratos &#xc1;rabes Unidos"/>
                           <Data value="Filipinas"/>
+                          <Data value="Guam"/>
+                          <Data value="Hong Kong China"/>
+                          <Data value="India "/>
                           <Data value="Indonesia"/>
+                          <Data value="Irak"/>
+                          <Data value="Jap&#xf3;n"/>
+                          <Data value="Jordania"/>
+                          <Data value="Kuwait"/>
                           <Data value="Laos"/>
+                          <Data value="L&#xed;bano"/>
+                          <Data value="Macao"/>
                           <Data value="Malasia"/>
-                          <Data value=" Singapur"/>
+                          <Data value="Maldivas"/>
+                          <Data value="Mongolia"/>
+                          <Data value="Myanmar"/>
+                          <Data value="Nepal"/>
+                          <Data value="Om&#xe1;n"/>
+                          <Data value="Pakist&#xe1;n"/>
+                          <Data value="Palestina"/>
+                          <Data value="Qatar"/>
+                          <Data value="RDP de Corea"/>
+                          <Data value="Rep&#xfa;blica de Corea"/>
+                          <Data value="Rep&#xfa;blica Kirguisa"/>
+                          <Data value="Rl de Ir&#xe1;n"/>
+                          <Data value="RP China"/>
+                          <Data value="Singapur"/>
+                          <Data value="Siria "/>
+                          <Data value="Sri Lanka"/>
                           <Data value="Tailandia"/>
+                          <Data value="Tayikist&#xe1;n"/>
                           <Data value="Timor Oriental"/>
+                          <Data value="Turkmenist&#xe1;n"/>
+                          <Data value="Uzbekist&#xe1;n"/>
                           <Data value="Vietnam"/>
-                          <Data value="Corea del Norte"/>
-                          <Data value="null"/>
-                          <Data value="null"/>
-                          <Data value="null"/>
-                          <Data value="null"/>
-                          <Data value="null"/>
-                          <Data value="null"/>
-                          <Data value="null"/>
+                          <Data value="Yemen"/>
                         </Column>
                       </Table>
                     </Property>
@@ -213,7 +239,7 @@
             <Component class="javax.swing.JButton" name="btnPartidoAFC">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="99" green="33" red="ff" type="rgb"/>
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="12" style="1"/>
@@ -224,7 +250,7 @@
             <Component class="javax.swing.JButton" name="btnTodosPartidosAFC">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="33" green="33" red="ff" type="rgb"/>
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Segoe UI" size="12" style="1"/>
@@ -251,10 +277,10 @@
                       <Component id="jScrollPane3" min="-2" pref="264" max="-2" attributes="0"/>
                       <EmptySpace pref="24" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btnPartidoCONCACAF" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnTodosPartidosCONCACAF" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnTodosPartidosCONCACAF" min="-2" pref="138" max="-2" attributes="0"/>
+                          <Component id="btnPartidoCONCACAF" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -267,10 +293,10 @@
                               <Component id="jScrollPane3" min="-2" pref="875" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="139" max="-2" attributes="0"/>
-                              <Component id="btnPartidoCONCACAF" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
-                              <Component id="btnTodosPartidosCONCACAF" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="161" max="-2" attributes="0"/>
+                              <Component id="btnPartidoCONCACAF" min="-2" pref="32" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnTodosPartidosCONCACAF" min="-2" pref="31" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace pref="285" max="32767" attributes="0"/>
@@ -393,12 +419,12 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jScrollPane4" min="-2" pref="240" max="-2" attributes="0"/>
-                      <EmptySpace pref="44" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btnPartidoCONMEBOL" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnTodosPartidosCONMEBOL" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="33" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="btnPartidoCONMEBOL" max="32767" attributes="0"/>
+                          <Component id="btnTodosPartidosCONMEBOL" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -407,10 +433,10 @@
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
-                              <Component id="btnPartidoCONMEBOL" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
-                              <Component id="btnTodosPartidosCONMEBOL" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="152" max="-2" attributes="0"/>
+                              <Component id="btnPartidoCONMEBOL" min="-2" pref="34" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="btnTodosPartidosCONMEBOL" min="-2" pref="34" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
@@ -547,12 +573,12 @@
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jScrollPane2" min="-2" pref="293" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btnTodosPartidosCAF" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnPartidoCAF" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="btnPartidoCAF" max="32767" attributes="0"/>
+                          <Component id="btnTodosPartidosCAF" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="36" max="32767" attributes="0"/>
+                      <EmptySpace pref="42" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -561,10 +587,10 @@
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
-                              <Component id="btnPartidoCAF" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
-                              <Component id="btnTodosPartidosCAF" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                              <Component id="btnPartidoCAF" min="-2" pref="36" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="btnTodosPartidosCAF" min="-2" pref="35" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>

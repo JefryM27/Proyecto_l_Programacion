@@ -114,26 +114,52 @@ public class Interfaz extends javax.swing.JFrame {
 
         tblAFC.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {" Australia"},
-                {"Birmania"},
-                {"Brunéi"},
+                {"Afganistán"},
+                {"Arabia Saudí"},
+                {"Australia"},
+                {"Bahréin"},
+                {"Bangladesh"},
+                {"Brunéi Darussalam"},
+                {"Bután "},
                 {"Camboya"},
+                {"Chinese Taipei"},
+                {"Emiratos Árabes Unidos"},
                 {"Filipinas"},
+                {"Guam"},
+                {"Hong Kong China"},
+                {"India "},
                 {"Indonesia"},
+                {"Irak"},
+                {"Japón"},
+                {"Jordania"},
+                {"Kuwait"},
                 {"Laos"},
+                {"Líbano"},
+                {"Macao"},
                 {"Malasia"},
-                {" Singapur"},
+                {"Maldivas"},
+                {"Mongolia"},
+                {"Myanmar"},
+                {"Nepal"},
+                {"Omán"},
+                {"Pakistán"},
+                {"Palestina"},
+                {"Qatar"},
+                {"RDP de Corea"},
+                {"República de Corea"},
+                {"República Kirguisa"},
+                {"Rl de Irán"},
+                {"RP China"},
+                {"Singapur"},
+                {"Siria "},
+                {"Sri Lanka"},
                 {"Tailandia"},
+                {"Tayikistán"},
                 {"Timor Oriental"},
+                {"Turkmenistán"},
+                {"Uzbekistán"},
                 {"Vietnam"},
-                {"Corea del Norte"},
-                {null},
-                {null},
-                {null},
-                {null},
-                {null},
-                {null},
-                {null}
+                {"Yemen"}
             },
             new String [] {
                 "Selecciones AFC"
@@ -141,11 +167,11 @@ public class Interfaz extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tblAFC);
 
-        btnPartidoAFC.setBackground(new java.awt.Color(255, 51, 153));
+        btnPartidoAFC.setBackground(new java.awt.Color(204, 204, 204));
         btnPartidoAFC.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnPartidoAFC.setText("Partido por Partido");
 
-        btnTodosPartidosAFC.setBackground(new java.awt.Color(255, 51, 51));
+        btnTodosPartidosAFC.setBackground(new java.awt.Color(204, 204, 204));
         btnTodosPartidosAFC.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnTodosPartidosAFC.setText("Todos los partidos");
 
@@ -156,25 +182,25 @@ public class Interfaz extends javax.swing.JFrame {
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addGap(21, 21, 21)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(btnPartidoAFC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btnTodosPartidosAFC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(105, Short.MAX_VALUE))
+                .addGap(34, 34, 34)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnPartidoAFC, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnTodosPartidosAFC, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(65, Short.MAX_VALUE))
         );
         jPanel11Layout.setVerticalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel11Layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel11Layout.createSequentialGroup()
                         .addGap(164, 164, 164)
-                        .addComponent(btnPartidoAFC, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(34, 34, 34)
-                        .addComponent(btnTodosPartidosAFC, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(718, Short.MAX_VALUE))
+                        .addComponent(btnPartidoAFC, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(36, 36, 36)
+                        .addComponent(btnTodosPartidosAFC, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel11Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(723, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("AFC", jPanel11);
@@ -251,9 +277,9 @@ public class Interfaz extends javax.swing.JFrame {
                 .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 24, Short.MAX_VALUE)
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnPartidoCONCACAF, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(btnTodosPartidosCONCACAF, javax.swing.GroupLayout.Alignment.TRAILING))
-                .addGap(58, 58, 58))
+                    .addComponent(btnTodosPartidosCONCACAF, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnPartidoCONCACAF))
+                .addGap(55, 55, 55))
         );
         jPanel13Layout.setVerticalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -263,10 +289,10 @@ public class Interfaz extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 875, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel13Layout.createSequentialGroup()
-                        .addGap(139, 139, 139)
-                        .addComponent(btnPartidoCONCACAF)
-                        .addGap(85, 85, 85)
-                        .addComponent(btnTodosPartidosCONCACAF)))
+                        .addGap(161, 161, 161)
+                        .addComponent(btnPartidoCONCACAF, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(btnTodosPartidosCONCACAF, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(285, Short.MAX_VALUE))
         );
 
@@ -306,21 +332,21 @@ public class Interfaz extends javax.swing.JFrame {
             .addGroup(jPanel15Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 240, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnPartidoCONMEBOL)
-                    .addComponent(btnTodosPartidosCONMEBOL))
-                .addGap(77, 77, 77))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 33, Short.MAX_VALUE)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(btnPartidoCONMEBOL, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnTodosPartidosCONMEBOL, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(88, 88, 88))
         );
         jPanel15Layout.setVerticalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel15Layout.createSequentialGroup()
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel15Layout.createSequentialGroup()
-                        .addGap(90, 90, 90)
-                        .addComponent(btnPartidoCONMEBOL)
-                        .addGap(61, 61, 61)
-                        .addComponent(btnTodosPartidosCONMEBOL))
+                        .addGap(152, 152, 152)
+                        .addComponent(btnPartidoCONMEBOL, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(28, 28, 28)
+                        .addComponent(btnTodosPartidosCONMEBOL, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel15Layout.createSequentialGroup()
                         .addGap(40, 40, 40)
                         .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -443,21 +469,21 @@ public class Interfaz extends javax.swing.JFrame {
             .addGroup(jPanel12Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 293, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(37, 37, 37)
-                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btnTodosPartidosCAF)
-                    .addComponent(btnPartidoCAF))
-                .addContainerGap(36, Short.MAX_VALUE))
+                .addGap(31, 31, 31)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(btnPartidoCAF, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnTodosPartidosCAF, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(42, Short.MAX_VALUE))
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel12Layout.createSequentialGroup()
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel12Layout.createSequentialGroup()
-                        .addGap(117, 117, 117)
-                        .addComponent(btnPartidoCAF)
-                        .addGap(45, 45, 45)
-                        .addComponent(btnTodosPartidosCAF))
+                        .addGap(131, 131, 131)
+                        .addComponent(btnPartidoCAF, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(btnTodosPartidosCAF, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel12Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 1110, javax.swing.GroupLayout.PREFERRED_SIZE)))
