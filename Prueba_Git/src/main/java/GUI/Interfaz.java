@@ -38,6 +38,10 @@ public class Interfaz extends javax.swing.JFrame {
         btnPartidoAFC = new javax.swing.JButton();
         btnTodosPartidosAFC = new javax.swing.JButton();
         jPanel13 = new javax.swing.JPanel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
+        btnPartidoCONCACAF = new javax.swing.JButton();
+        btnTodosPartidosCONCACAF = new javax.swing.JButton();
         jPanel15 = new javax.swing.JPanel();
         jPanel16 = new javax.swing.JPanel();
         jPanel17 = new javax.swing.JPanel();
@@ -171,15 +175,95 @@ public class Interfaz extends javax.swing.JFrame {
 
         jTabbedPane2.addTab("AFC", jPanel11);
 
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"Anguila"},
+                {"Antigua y Barbuda"},
+                {"Aruba"},
+                {"Bahamas"},
+                {"Barbados"},
+                {"Belice"},
+                {"Bermudas"},
+                {"Bonaire"},
+                {"Canadá"},
+                {"Costa Rica"},
+                {"Cuba"},
+                {"Curazao"},
+                {"Dominica"},
+                {"El Salvador"},
+                {"Estados Unidos"},
+                {"Granada"},
+                {"Guatemala"},
+                {"Guadalupe"},
+                {"Guayana"},
+                {"Guayana Francesa"},
+                {"Haití"},
+                {"Honduras"},
+                {"Islas Caimán"},
+                {"Islas Turcas y Caicos"},
+                {"Islas Vírgenes Británicas"},
+                {"Islas Vírgenes de los Estados Unidos"},
+                {"Jamaica"},
+                {"Martinica"},
+                {"Mexico"},
+                {"Montserrat"},
+                {"Nicaragua"},
+                {"Panamá"},
+                {"Puerto Rico"},
+                {"República Dominicana"},
+                {"Saint-Martin"},
+                {"San Cristóbal y Nieves"},
+                {"San Vicente y las Granadinas"},
+                {"Santa Lucía"},
+                {"Sint Maarten"},
+                {"Surinam"},
+                {"Trinidad y Tobago "}
+            },
+            new String [] {
+                "Selecciones CONCACAF"
+            }
+        ));
+        jScrollPane3.setViewportView(jTable1);
+
+        btnPartidoCONCACAF.setBackground(new java.awt.Color(204, 204, 204));
+        btnPartidoCONCACAF.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnPartidoCONCACAF.setText("Partido por Partido");
+        btnPartidoCONCACAF.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPartidoCONCACAFActionPerformed(evt);
+            }
+        });
+
+        btnTodosPartidosCONCACAF.setBackground(new java.awt.Color(204, 204, 204));
+        btnTodosPartidosCONCACAF.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        btnTodosPartidosCONCACAF.setText("Todos los partidos");
+
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
         jPanel13Layout.setHorizontalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 507, Short.MAX_VALUE)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addGap(26, 26, 26)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 264, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 24, Short.MAX_VALUE)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnPartidoCONCACAF, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(btnTodosPartidosCONCACAF, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addGap(58, 58, 58))
         );
         jPanel13Layout.setVerticalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1166, Short.MAX_VALUE)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 875, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addGap(139, 139, 139)
+                        .addComponent(btnPartidoCONCACAF)
+                        .addGap(85, 85, 85)
+                        .addComponent(btnTodosPartidosCONCACAF)))
+                .addContainerGap(285, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("CONCACAF", jPanel13);
@@ -356,13 +440,19 @@ public class Interfaz extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btnPartidoCAFActionPerformed
 
+    private void btnPartidoCONCACAFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPartidoCONCACAFActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnPartidoCONCACAFActionPerformed
+
    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnPartidoAFC;
     private javax.swing.JButton btnPartidoCAF;
+    private javax.swing.JButton btnPartidoCONCACAF;
     private javax.swing.JButton btnTodosPartidosAFC;
     private javax.swing.JButton btnTodosPartidosCAF;
+    private javax.swing.JButton btnTodosPartidosCONCACAF;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
@@ -376,7 +466,9 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JTabbedPane jTabbedPane2;
+    private javax.swing.JTable jTable1;
     private javax.swing.JTable tblAFC;
     private javax.swing.JTable tblCAF;
     // End of variables declaration//GEN-END:variables
