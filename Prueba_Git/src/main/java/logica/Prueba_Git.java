@@ -3,6 +3,7 @@
  */
 
 package logica;
+import GUI.*;
 
 /**
  *
@@ -11,6 +12,9 @@ package logica;
 public class Prueba_Git {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Interfaz i = new Interfaz();
+        i.setVisible(true);
+        i.setResizable(true);
+        i.setLocationRelativeTo(null);
     }
 }
