@@ -100,7 +100,7 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jTabbedPane2" alignment="0" pref="507" max="32767" attributes="0"/>
+          <Component id="jTabbedPane2" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -126,15 +126,23 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                      <Component id="jScrollPane1" min="-2" pref="228" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btnPartidoAFC" min="-2" pref="159" max="-2" attributes="0"/>
-                          <Component id="btnTodosPartidosAFC" min="-2" pref="159" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="173" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jScrollPane7" min="-2" pref="485" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="btnTodosPartidosAFC" min="-2" pref="159" max="-2" attributes="0"/>
+                                  <Component id="btnPartidoAFC" min="-2" pref="159" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
-                      <EmptySpace pref="65" max="32767" attributes="0"/>
+                      <EmptySpace pref="12" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -143,17 +151,19 @@
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="164" max="-2" attributes="0"/>
-                              <Component id="btnPartidoAFC" min="-2" pref="35" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                              <Component id="btnTodosPartidosAFC" min="-2" pref="37" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                               <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
                           </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                              <Component id="jScrollPane7" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace pref="723" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                      <Component id="btnPartidoAFC" min="-2" pref="35" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                      <Component id="btnTodosPartidosAFC" min="-2" pref="37" max="-2" attributes="0"/>
+                      <EmptySpace pref="14" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -166,58 +176,11 @@
 
               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
               <SubComponents>
-                <Component class="javax.swing.JTable" name="tblAFC">
+                <Component class="javax.swing.JTable" name="tblSelecionesAFC">
                   <Properties>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                      <Table columnCount="1" rowCount="46">
-                        <Column editable="true" title="Selecciones AFC" type="java.lang.Object">
-                          <Data value="Afganist&#xe1;n"/>
-                          <Data value="Arabia Saud&#xed;"/>
-                          <Data value="Australia"/>
-                          <Data value="Bahr&#xe9;in"/>
-                          <Data value="Bangladesh"/>
-                          <Data value="Brun&#xe9;i Darussalam"/>
-                          <Data value="But&#xe1;n "/>
-                          <Data value="Camboya"/>
-                          <Data value="Chinese Taipei"/>
-                          <Data value="Emiratos &#xc1;rabes Unidos"/>
-                          <Data value="Filipinas"/>
-                          <Data value="Guam"/>
-                          <Data value="Hong Kong China"/>
-                          <Data value="India "/>
-                          <Data value="Indonesia"/>
-                          <Data value="Irak"/>
-                          <Data value="Jap&#xf3;n"/>
-                          <Data value="Jordania"/>
-                          <Data value="Kuwait"/>
-                          <Data value="Laos"/>
-                          <Data value="L&#xed;bano"/>
-                          <Data value="Macao"/>
-                          <Data value="Malasia"/>
-                          <Data value="Maldivas"/>
-                          <Data value="Mongolia"/>
-                          <Data value="Myanmar"/>
-                          <Data value="Nepal"/>
-                          <Data value="Om&#xe1;n"/>
-                          <Data value="Pakist&#xe1;n"/>
-                          <Data value="Palestina"/>
-                          <Data value="Qatar"/>
-                          <Data value="RDP de Corea"/>
-                          <Data value="Rep&#xfa;blica de Corea"/>
-                          <Data value="Rep&#xfa;blica Kirguisa"/>
-                          <Data value="Rl de Ir&#xe1;n"/>
-                          <Data value="RP China"/>
-                          <Data value="Singapur"/>
-                          <Data value="Siria "/>
-                          <Data value="Sri Lanka"/>
-                          <Data value="Tailandia"/>
-                          <Data value="Tayikist&#xe1;n"/>
-                          <Data value="Timor Oriental"/>
-                          <Data value="Turkmenist&#xe1;n"/>
-                          <Data value="Uzbekist&#xe1;n"/>
-                          <Data value="Vietnam"/>
-                          <Data value="Yemen"/>
-                        </Column>
+                      <Table columnCount="1" rowCount="0">
+                        <Column editable="true" title="Selecciones AFC" type="java.lang.Object"/>
                       </Table>
                     </Property>
                     <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
@@ -258,6 +221,90 @@
                 <Property name="text" type="java.lang.String" value="Todos los partidos"/>
               </Properties>
             </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblVerAFC">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="10" rowCount="0">
+                        <Column editable="true" title="Pos." type="java.lang.Object"/>
+                        <Column editable="true" title="Seleccion" type="java.lang.Object"/>
+                        <Column editable="true" title="Pts." type="java.lang.Object"/>
+                        <Column editable="true" title="PJ" type="java.lang.Object"/>
+                        <Column editable="true" title="PG" type="java.lang.Object"/>
+                        <Column editable="true" title="PE" type="java.lang.Object"/>
+                        <Column editable="true" title="PP" type="java.lang.Object"/>
+                        <Column editable="true" title="GF" type="java.lang.Object"/>
+                        <Column editable="true" title="GC" type="java.lang.Object"/>
+                        <Column editable="true" title="Dif." type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="jPanel13">
@@ -275,7 +322,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                       <Component id="jScrollPane3" min="-2" pref="264" max="-2" attributes="0"/>
-                      <EmptySpace pref="24" max="32767" attributes="0"/>
+                      <EmptySpace pref="211" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="btnTodosPartidosCONCACAF" min="-2" pref="138" max="-2" attributes="0"/>
                           <Component id="btnPartidoCONCACAF" min="-2" max="-2" attributes="0"/>
@@ -288,18 +335,18 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jScrollPane3" min="-2" pref="875" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="161" max="-2" attributes="0"/>
                               <Component id="btnPartidoCONCACAF" min="-2" pref="32" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="btnTodosPartidosCONCACAF" min="-2" pref="31" max="-2" attributes="0"/>
                           </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jScrollPane3" min="-2" pref="559" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
-                      <EmptySpace pref="285" max="32767" attributes="0"/>
+                      <EmptySpace pref="155" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -312,53 +359,11 @@
 
               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
               <SubComponents>
-                <Component class="javax.swing.JTable" name="jTable1">
+                <Component class="javax.swing.JTable" name="tblSeleccionCONCACAF">
                   <Properties>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                      <Table columnCount="1" rowCount="41">
-                        <Column editable="true" title="Selecciones CONCACAF" type="java.lang.Object">
-                          <Data value="Anguila"/>
-                          <Data value="Antigua y Barbuda"/>
-                          <Data value="Aruba"/>
-                          <Data value="Bahamas"/>
-                          <Data value="Barbados"/>
-                          <Data value="Belice"/>
-                          <Data value="Bermudas"/>
-                          <Data value="Bonaire"/>
-                          <Data value="Canad&#xe1;"/>
-                          <Data value="Costa Rica"/>
-                          <Data value="Cuba"/>
-                          <Data value="Curazao"/>
-                          <Data value="Dominica"/>
-                          <Data value="El Salvador"/>
-                          <Data value="Estados Unidos"/>
-                          <Data value="Granada"/>
-                          <Data value="Guatemala"/>
-                          <Data value="Guadalupe"/>
-                          <Data value="Guayana"/>
-                          <Data value="Guayana Francesa"/>
-                          <Data value="Hait&#xed;"/>
-                          <Data value="Honduras"/>
-                          <Data value="Islas Caim&#xe1;n"/>
-                          <Data value="Islas Turcas y Caicos"/>
-                          <Data value="Islas V&#xed;rgenes Brit&#xe1;nicas"/>
-                          <Data value="Islas V&#xed;rgenes de los Estados Unidos"/>
-                          <Data value="Jamaica"/>
-                          <Data value="Martinica"/>
-                          <Data value="Mexico"/>
-                          <Data value="Montserrat"/>
-                          <Data value="Nicaragua"/>
-                          <Data value="Panam&#xe1;"/>
-                          <Data value="Puerto Rico"/>
-                          <Data value="Rep&#xfa;blica Dominicana"/>
-                          <Data value="Saint-Martin"/>
-                          <Data value="San Crist&#xf3;bal y Nieves"/>
-                          <Data value="San Vicente y las Granadinas"/>
-                          <Data value="Santa Luc&#xed;a"/>
-                          <Data value="Sint Maarten"/>
-                          <Data value="Surinam"/>
-                          <Data value="Trinidad y Tobago "/>
-                        </Column>
+                      <Table columnCount="1" rowCount="0">
+                        <Column editable="true" title="Selecciones CONCACAF" type="java.lang.Object"/>
                       </Table>
                     </Property>
                     <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
@@ -419,7 +424,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jScrollPane4" min="-2" pref="240" max="-2" attributes="0"/>
-                      <EmptySpace pref="33" max="32767" attributes="0"/>
+                      <EmptySpace pref="217" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="btnPartidoCONMEBOL" max="32767" attributes="0"/>
                           <Component id="btnTodosPartidosCONMEBOL" max="32767" attributes="0"/>
@@ -443,7 +448,7 @@
                               <Component id="jScrollPane4" min="-2" pref="350" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="776" max="32767" attributes="0"/>
+                      <EmptySpace pref="330" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -456,22 +461,11 @@
 
               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
               <SubComponents>
-                <Component class="javax.swing.JTable" name="jTable2">
+                <Component class="javax.swing.JTable" name="tblSeleccionesCONMEBOL">
                   <Properties>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                      <Table columnCount="1" rowCount="10">
-                        <Column editable="true" title="Selecciones CONMEBOL" type="java.lang.Object">
-                          <Data value="Argentina"/>
-                          <Data value="Bolivia"/>
-                          <Data value="Brasil"/>
-                          <Data value="Chile"/>
-                          <Data value="Colombia"/>
-                          <Data value="Ecuador"/>
-                          <Data value="Paraguay"/>
-                          <Data value="Per&#xfa;"/>
-                          <Data value="Uruguay"/>
-                          <Data value="null"/>
-                        </Column>
+                      <Table columnCount="1" rowCount="1">
+                        <Column editable="true" title="Selecciones CONMEBOL" type="java.lang.Object"/>
                       </Table>
                     </Property>
                     <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
@@ -526,15 +520,55 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="507" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Component id="jScrollPane5" min="-2" pref="251" max="-2" attributes="0"/>
+                      <EmptySpace pref="426" max="32767" attributes="0"/>
+                  </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="1166" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                      <Component id="jScrollPane5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="227" max="32767" attributes="0"/>
+                  </Group>
               </Group>
             </DimensionLayout>
           </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblSeleccionOFC">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="1" rowCount="0">
+                        <Column editable="true" title="Seleccion" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="jPanel17">
           <Constraints>
@@ -548,15 +582,55 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="507" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Component id="jScrollPane6" min="-2" pref="296" max="-2" attributes="0"/>
+                      <EmptySpace pref="376" max="32767" attributes="0"/>
+                  </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="1166" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                      <Component id="jScrollPane6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="229" max="32767" attributes="0"/>
+                  </Group>
               </Group>
             </DimensionLayout>
           </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="tblSeleccionUEFA">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="1" rowCount="0">
+                        <Column editable="true" title="Seleccion" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="jPanel12">
           <Constraints>
@@ -578,7 +652,7 @@
                           <Component id="btnPartidoCAF" max="32767" attributes="0"/>
                           <Component id="btnTodosPartidosCAF" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="42" max="32767" attributes="0"/>
+                      <EmptySpace pref="227" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -594,10 +668,10 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jScrollPane2" min="-2" pref="1110" max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="625" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace pref="50" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -610,66 +684,11 @@
 
               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
               <SubComponents>
-                <Component class="javax.swing.JTable" name="tblCAF">
+                <Component class="javax.swing.JTable" name="tblSeleccionCAF">
                   <Properties>
                     <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                      <Table columnCount="1" rowCount="54">
-                        <Column editable="true" title="Selecciones CAF" type="java.lang.Object">
-                          <Data value="Angola"/>
-                          <Data value="Argelia"/>
-                          <Data value="Ben&#xed;n"/>
-                          <Data value="Botsuana"/>
-                          <Data value="Burkina Faso"/>
-                          <Data value="Burundi"/>
-                          <Data value="Cabo Verde"/>
-                          <Data value="Camer&#xfa;n"/>
-                          <Data value="Chad"/>
-                          <Data value="Comoras"/>
-                          <Data value="Congo"/>
-                          <Data value="Costa de Marfil"/>
-                          <Data value="Egipto"/>
-                          <Data value="Eritrea"/>
-                          <Data value="Esuatini"/>
-                          <Data value="Etiop&#xed;a"/>
-                          <Data value="Gab&#xf3;n"/>
-                          <Data value="Gambia"/>
-                          <Data value="Ghana"/>
-                          <Data value="Guinea"/>
-                          <Data value="Guinea Ecuatorial"/>
-                          <Data value="Guinea-Biss&#xe1;u"/>
-                          <Data value="Kenia"/>
-                          <Data value="Lesoto"/>
-                          <Data value="Liberia"/>
-                          <Data value="Libia"/>
-                          <Data value="Madagascar"/>
-                          <Data value="Malaui"/>
-                          <Data value="Mali"/>
-                          <Data value="Marruecos"/>
-                          <Data value="Mauricio"/>
-                          <Data value="Mauritania"/>
-                          <Data value="Mozambique"/>
-                          <Data value="Namibia"/>
-                          <Data value="N&#xed;ger"/>
-                          <Data value="Nigeria"/>
-                          <Data value="RD del Congo"/>
-                          <Data value="Rep&#xfa;blica Centroafricana"/>
-                          <Data value="Ruanda"/>
-                          <Data value="Santo Tom&#xe9; y Pr&#xed;ncipe"/>
-                          <Data value="Senegal"/>
-                          <Data value="Seychelles"/>
-                          <Data value="Sierra Leona"/>
-                          <Data value="Somalia"/>
-                          <Data value="Sud&#xe1;frica"/>
-                          <Data value="Sud&#xe1;n"/>
-                          <Data value="Sud&#xe1;n del Sur"/>
-                          <Data value="Tanzania"/>
-                          <Data value="Togo"/>
-                          <Data value="T&#xfa;nez"/>
-                          <Data value="Uganda"/>
-                          <Data value="Yibuti"/>
-                          <Data value="Zambia"/>
-                          <Data value="null"/>
-                        </Column>
+                      <Table columnCount="1" rowCount="0">
+                        <Column editable="true" title="Selecciones CAF" type="java.lang.Object"/>
                       </Table>
                     </Property>
                     <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
