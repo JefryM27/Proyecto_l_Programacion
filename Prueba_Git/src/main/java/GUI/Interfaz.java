@@ -5,6 +5,7 @@
 package GUI;
 
 import java.util.ArrayList;
+import java.util.Random;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -703,6 +704,11 @@ public class Interfaz extends javax.swing.JFrame {
         btnTodosPartidosAFC.setBackground(new java.awt.Color(204, 204, 204));
         btnTodosPartidosAFC.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         btnTodosPartidosAFC.setText("Todos los partidos");
+        btnTodosPartidosAFC.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnTodosPartidosAFCActionPerformed(evt);
+            }
+        });
 
         tblVerAFC.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -722,9 +728,9 @@ public class Interfaz extends javax.swing.JFrame {
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel11Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 485, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 524, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel11Layout.createSequentialGroup()
                         .addGap(30, 30, 30)
                         .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -993,6 +999,33 @@ public class Interfaz extends javax.swing.JFrame {
     private void btnPartidoCONCACAFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPartidoCONCACAFActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnPartidoCONCACAFActionPerformed
+
+    private void btnTodosPartidosAFCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTodosPartidosAFCActionPerformed
+        this.simularPartidos(new Object[]{}, modeloAFC);
+        
+    }//GEN-LAST:event_btnTodosPartidosAFCActionPerformed
+
+    public int generarGoles() {
+    // Generar un número aleatorio de goles entre 0 y 10
+    Random random = new Random();
+    int goles = random.nextInt(11); // Genera números entre 0 y 10 (ambos inclusive)
+    return goles;
+}
+    private void simularPartidos(Object[] equipos, DefaultTableModel modelo) {
+    int numEquipos = equipos.length;
+    
+    for (int i = 0; i < numEquipos; i++) {
+        for (int j = i + 1; j < numEquipos; j++) {
+            // Simular partido entre equipo i y equipo j
+            int golesEquipoI = this.generarGoles();// Lógica para generar los goles del equipo i
+            int golesEquipoJ = this.generarGoles();// Lógica para generar los goles del equipo j
+            
+            // Actualizar los resultados en la tabla correspondiente
+            //modelo.setValueAt(golesEquipoI, i, j + 2); // +2 para omitir las dos primeras columnas
+            //modelo.setValueAt(golesEquipoJ, j, i + 2); // +2 para omitir las dos primeras columnas
+        }
+    }
+}
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
