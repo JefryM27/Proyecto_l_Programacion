@@ -6,6 +6,7 @@ package GUI;
 
 import java.util.ArrayList;
 import java.util.Random;
+
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -71,7 +72,7 @@ public class Interfaz extends javax.swing.JFrame {
         seleccionesAFC.add("GF");
         seleccionesAFC.add("GC");
         seleccionesAFC.add("Dif.");
-        
+
         for (Object columna : seleccionesAFC) {
             modeloAFC.addColumn(columna);
         }
@@ -79,52 +80,52 @@ public class Interfaz extends javax.swing.JFrame {
 
         ArrayList<Object[]> SeleccionesAFC = new ArrayList<Object[]>();
 
-        Object[] seleccion1AFC = new Object[]{"1","Afganistán","0","0","0","0","0","0","0","0"};
-        Object[] seleccion2AFC = new Object[]{"2","Arabia Saudí","0","0","0","0","0","0","0","0"};
-        Object[] seleccion3AFC = new Object[]{"3","Australia","0","0","0","0","0","0","0","0"};
-        Object[] seleccion4AFC = new Object[]{"4","Bahréin","0","0","0","0","0","0","0","0"};
-        Object[] seleccion5AFC = new Object[]{"5","Bangladesh","0","0","0","0","0","0","0","0"};
-        Object[] seleccion6AFC = new Object[]{"6","Brunéi Darussalam","0","0","0","0","0","0","0","0"};
-        Object[] seleccion7AFC = new Object[]{"7","Bután","0","0","0","0","0","0","0","0"};
-        Object[] seleccion8AFC = new Object[]{"8","Camboya","0","0","0","0","0","0","0","0"};
-        Object[] seleccion9AFC = new Object[]{"9","Chinese Taipei","0","0","0","0","0","0","0","0"};
-        Object[] seleccion10AFC = new Object[]{"10","Emiratos Árabes Unidos","0","0","0","0","0","0","0","0"};
-        Object[] seleccion11AFC = new Object[]{"11","Filipinas","0","0","0","0","0","0","0","0"};
-        Object[] seleccion12AFC = new Object[]{"12","Guam","0","0","0","0","0","0","0","0"};
-        Object[] seleccion13AFC = new Object[]{"13","Hong Kong China","0","0","0","0","0","0","0","0"};
-        Object[] seleccion14AFC = new Object[]{"14","India","0","0","0","0","0","0","0","0"};
-        Object[] seleccion15AFC = new Object[]{"15","Indonesia","0","0","0","0","0","0","0","0"};
-        Object[] seleccion16AFC = new Object[]{"16","Irak","0","0","0","0","0","0","0","0"};
-        Object[] seleccion17AFC = new Object[]{"17","Japón","0","0","0","0","0","0","0","0"};
-        Object[] seleccion18AFC = new Object[]{"18","Jordania","0","0","0","0","0","0","0","0"};
-        Object[] seleccion19AFC = new Object[]{"19","Kuwait","0","0","0","0","0","0","0","0"};
-        Object[] seleccion20AFC = new Object[]{"20","Laos","0","0","0","0","0","0","0","0"};
-        Object[] seleccion21AFC = new Object[]{"21","Líbano","0","0","0","0","0","0","0","0"};
-        Object[] seleccion22AFC = new Object[]{"22","Macao","0","0","0","0","0","0","0","0"};
-        Object[] seleccion23AFC = new Object[]{"23","Malasia","0","0","0","0","0","0","0","0"};
-        Object[] seleccion24AFC = new Object[]{"24","Maldivas","0","0","0","0","0","0","0","0"};
-        Object[] seleccion25AFC = new Object[]{"25","Mongolia","0","0","0","0","0","0","0","0"};
-        Object[] seleccion26AFC = new Object[]{"26","Myanmar","0","0","0","0","0","0","0","0"};
-        Object[] seleccion27AFC = new Object[]{"27","Nepal","0","0","0","0","0","0","0","0"};
-        Object[] seleccion28AFC = new Object[]{"28","Omán","0","0","0","0","0","0","0","0"};
-        Object[] seleccion29AFC = new Object[]{"29","Pakistán","0","0","0","0","0","0","0","0"};
-        Object[] seleccion30AFC = new Object[]{"30","Palestina","0","0","0","0","0","0","0","0"};
-        Object[] seleccion31AFC = new Object[]{"31","Qatar","0","0","0","0","0","0","0","0"};
-        Object[] seleccion32AFC = new Object[]{"32","RDP de Corea","0","0","0","0","0","0","0","0"};
-        Object[] seleccion33AFC = new Object[]{"33","República de Corea","0","0","0","0","0","0","0","0"};
-        Object[] seleccion34AFC = new Object[]{"34","República Kirguisa","0","0","0","0","0","0","0","0"};
-        Object[] seleccion35AFC = new Object[]{"35","Rl de Irán","0","0","0","0","0","0","0","0"};
-        Object[] seleccion36AFC = new Object[]{"36","RP China","0","0","0","0","0","0","0","0"};
-        Object[] seleccion37AFC = new Object[]{"37","Singapur","0","0","0","0","0","0","0","0"};
-        Object[] seleccion38AFC = new Object[]{"38","Siria","0","0","0","0","0","0","0","0"};
-        Object[] seleccion39AFC = new Object[]{"39","Sri Lanka","0","0","0","0","0","0","0","0"};
-        Object[] seleccion40AFC = new Object[]{"40","Tailandia","0","0","0","0","0","0","0","0"};
-        Object[] seleccion41AFC = new Object[]{"41","Tayikistán","0","0","0","0","0","0","0","0"};
-        Object[] seleccion42AFC = new Object[]{"42","Timor Oriental","0","0","0","0","0","0","0","0"};
-        Object[] seleccion43AFC = new Object[]{"43","Turkmenistán","0","0","0","0","0","0","0","0"};
-        Object[] seleccion44AFC = new Object[]{"44","Uzbekistán","0","0","0","0","0","0","0","0"};
-        Object[] seleccion45AFC = new Object[]{"45","Vietnam","0","0","0","0","0","0","0","0"};
-        Object[] seleccion46AFC = new Object[]{"46","Yemen","0","0","0","0","0","0","0","0"};
+        Object[] seleccion1AFC = new Object[]{"1", "Afganistán", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion2AFC = new Object[]{"2", "Arabia Saudí", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion3AFC = new Object[]{"3", "Australia", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion4AFC = new Object[]{"4", "Bahréin", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion5AFC = new Object[]{"5", "Bangladesh", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion6AFC = new Object[]{"6", "Brunéi Darussalam", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion7AFC = new Object[]{"7", "Bután", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion8AFC = new Object[]{"8", "Camboya", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion9AFC = new Object[]{"9", "Chinese Taipei", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion10AFC = new Object[]{"10", "Emiratos Árabes Unidos", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion11AFC = new Object[]{"11", "Filipinas", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion12AFC = new Object[]{"12", "Guam", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion13AFC = new Object[]{"13", "Hong Kong China", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion14AFC = new Object[]{"14", "India", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion15AFC = new Object[]{"15", "Indonesia", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion16AFC = new Object[]{"16", "Irak", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion17AFC = new Object[]{"17", "Japón", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion18AFC = new Object[]{"18", "Jordania", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion19AFC = new Object[]{"19", "Kuwait", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion20AFC = new Object[]{"20", "Laos", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion21AFC = new Object[]{"21", "Líbano", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion22AFC = new Object[]{"22", "Macao", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion23AFC = new Object[]{"23", "Malasia", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion24AFC = new Object[]{"24", "Maldivas", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion25AFC = new Object[]{"25", "Mongolia", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion26AFC = new Object[]{"26", "Myanmar", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion27AFC = new Object[]{"27", "Nepal", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion28AFC = new Object[]{"28", "Omán", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion29AFC = new Object[]{"29", "Pakistán", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion30AFC = new Object[]{"30", "Palestina", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion31AFC = new Object[]{"31", "Qatar", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion32AFC = new Object[]{"32", "RDP de Corea", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion33AFC = new Object[]{"33", "República de Corea", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion34AFC = new Object[]{"34", "República Kirguisa", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion35AFC = new Object[]{"35", "Rl de Irán", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion36AFC = new Object[]{"36", "RP China", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion37AFC = new Object[]{"37", "Singapur", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion38AFC = new Object[]{"38", "Siria", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion39AFC = new Object[]{"39", "Sri Lanka", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion40AFC = new Object[]{"40", "Tailandia", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion41AFC = new Object[]{"41", "Tayikistán", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion42AFC = new Object[]{"42", "Timor Oriental", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion43AFC = new Object[]{"43", "Turkmenistán", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion44AFC = new Object[]{"44", "Uzbekistán", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion45AFC = new Object[]{"45", "Vietnam", "0", "0", "0", "0", "0", "0", "0", "0"};
+        Object[] seleccion46AFC = new Object[]{"46", "Yemen", "0", "0", "0", "0", "0", "0", "0", "0"};
 
         SeleccionesAFC.add(seleccion1AFC);
         SeleccionesAFC.add(seleccion2AFC);
@@ -513,7 +514,6 @@ public class Interfaz extends javax.swing.JFrame {
         Object[] seleccion52CAF = new Object[]{"Yibuti"};
         Object[] seleccion53CAF = new Object[]{"Zambia"};
 
-
         SeleccionesCAF.add(seleccion1CAF);
         SeleccionesCAF.add(seleccion2CAF);
         SeleccionesCAF.add(seleccion3CAF);
@@ -572,6 +572,103 @@ public class Interfaz extends javax.swing.JFrame {
             modeloCAF.addRow(SeleccioneCAF);
         }
         tblSeleccionCAF.setModel(modeloCAF);
+    }
+
+    /*private void SedeEncuentro(){//Es casi inutil
+        int identificador;
+        String paisSede;
+        String sedeDeEncuentros;
+        ArrayList<String> paisesDeEncuentros;
+        boolean marcador;
+    }
+    private void paisesDeEncuentro(){
+    ArrayList<String> paises = new ArrayList<>();
+        paises.add("1.Argentina");
+        paises.add("2.Bolivia");
+        paises.add("3.Brasil");
+        paises.add("4.Chile");
+        paises.add("5.Colombia");
+        paises.add("6.Ecuador");
+        paises.add("7.Paraguay");
+        paises.add("8.Perú");
+        paises.add("9.Uruguay");
+        paises.add("10.Venezuela");
+    }
+    private void SedesDeEncuentro(){
+        ArrayList<String> sedes = new ArrayList<>();
+        sedes.add("1.Buenos Aires");
+        sedes.add("2.La Paz");
+        sedes.add("3.Río de Janeiro");
+        sedes.add("4.Santiago");
+        sedes.add("5.Barranquilla");
+        sedes.add("6.Quito");
+        sedes.add("7.Asunción");
+        sedes.add("8.Lima");
+        sedes.add("9.Montevideo");
+        sedes.add("10.Caracas");
+
+        ArrayList<String> sedesEncuentro = generarSedesEncuentro(sedes, 3);
+
+        // Imprimir la información de las sedes de encuentro
+        for (SedeEncuentro sede : sedesEncuentro) {
+            System.out.println("Identificador: " + sede.getIdentificador());
+            System.out.println("País de la sede: " + sede.getPaisSede());
+            System.out.println("Sede del encuentro: " + sede.getSedeEncuentro());
+            System.out.println("Países del encuentro: " + sede.getPaisesEncuentro());
+            System.out.println("Marcado: " + sede.isMarcado());
+            System.out.println();
+        }
+    }
+    private void generarSedes(){
+    // Generar las sedes de encuentro al azar
+        Random random = new Random();
+        for (int i = 1; i <= 3; i++) {
+            int identificador = i;
+            String paisDeEncuentro = paises.get(random.nextInt(paises.size()));
+            String sedesDeEncuentro = "Sede " + i;
+            ArrayList<String> sedes = new ArrayList<>();
+            for (int j = 0; j < 4; j++) {
+                paisesEncuentro.add(paises.get(random.nextInt(paises.size())));
+            }
+            boolean marcado = random.nextBoolean();
+            SedesDeEncuentro sede = new SedesEncuentro(identificador, paisDeEncuentro, sedesDeEncuentro, sedes, marcado);
+            sedesEncuentro.add(sede);
+        }
+    }*/
+    public class Encuentro {
+
+        private int marcadorEquipo1;
+        private int marcadorEquipo2;
+
+        // Constructor
+        public Encuentro() {
+            Random random = new Random();
+            this.marcadorEquipo1 = random.nextInt(11);  // Genera un número aleatorio de 0 a 10
+            this.marcadorEquipo2 = random.nextInt(11);  // Genera un número aleatorio de 0 a 10
+        }
+
+        public class Marcador {
+
+            private int equipo1;
+            private int equipo2;
+
+            // Constructor
+            public Marcador(int equipo1, int equipo2) {
+                this.equipo1 = equipo1;
+                this.equipo2 = equipo2;
+            }
+
+            // Método para determinar el resultado del encuentro
+            public int calcularPuntos() {
+                if (equipo1 == equipo2) {
+                    return 1;  // Empate, se suma 1 punto a la tabla de clasificación
+                } else if (equipo1 > equipo2) {
+                    return 3;  // Equipo 1 gana, se suman 3 puntos a la tabla de clasificación
+                } else {
+                    return 0;  // Equipo 2 gana, no suma puntos en la tabla de clasificación
+                }
+            }
+        }
     }
 
     /**
@@ -1002,30 +1099,31 @@ public class Interfaz extends javax.swing.JFrame {
 
     private void btnTodosPartidosAFCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTodosPartidosAFCActionPerformed
         this.simularPartidos(new Object[]{}, modeloAFC);
-        
+
     }//GEN-LAST:event_btnTodosPartidosAFCActionPerformed
 
     public int generarGoles() {
-    // Generar un número aleatorio de goles entre 0 y 10
-    Random random = new Random();
-    int goles = random.nextInt(11); // Genera números entre 0 y 10 (ambos inclusive)
-    return goles;
-}
+        // Generar un número aleatorio de goles entre 0 y 10
+        Random random = new Random();
+        int goles = random.nextInt(11); // Genera números entre 0 y 10 (ambos inclusive)
+        return goles;
+    }
+
     private void simularPartidos(Object[] equipos, DefaultTableModel modelo) {
-    int numEquipos = equipos.length;
-    
-    for (int i = 0; i < numEquipos; i++) {
-        for (int j = i + 1; j < numEquipos; j++) {
-            // Simular partido entre equipo i y equipo j
-            int golesEquipoI = this.generarGoles();// Lógica para generar los goles del equipo i
-            int golesEquipoJ = this.generarGoles();// Lógica para generar los goles del equipo j
-            
-            // Actualizar los resultados en la tabla correspondiente
-            //modelo.setValueAt(golesEquipoI, i, j + 2); // +2 para omitir las dos primeras columnas
-            //modelo.setValueAt(golesEquipoJ, j, i + 2); // +2 para omitir las dos primeras columnas
+        int numEquipos = equipos.length;
+
+        for (int i = 0; i < numEquipos; i++) {
+            for (int j = i + 1; j < numEquipos; j++) {
+                // Simular partido entre equipo i y equipo j
+                int golesEquipoI = this.generarGoles();// Lógica para generar los goles del equipo i
+                int golesEquipoJ = this.generarGoles();// Lógica para generar los goles del equipo j
+
+                // Actualizar los resultados en la tabla correspondiente
+                //modelo.setValueAt(golesEquipoI, i, j + 2); // +2 para omitir las dos primeras columnas
+                //modelo.setValueAt(golesEquipoJ, j, i + 2); // +2 para omitir las dos primeras columnas
+            }
         }
     }
-}
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
