@@ -11,10 +11,18 @@ import GUI.*;
  */
 public class Prueba_Git {
 
+    private String CAF;
+    private String CONCACAF;
+    private String UEFA;
+    private String AFC;
+    private String CONMEBOL;
+    private String OFC;
+    
     public static void main(String[] args) {
         Interfaz i = new Interfaz();
         i.setVisible(true);
         i.setResizable(true);
         i.setLocationRelativeTo(null);
+        
     }
 }
